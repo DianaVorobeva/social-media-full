@@ -1,0 +1,140 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .Chat {
+        width: 90%;
+        margin-left: 60px;
+      }
+
+      .iconBlock {
+        display: none;
+      }
+
+      .name>span:nth-of-type(1) {
+        width: 200px;
+      }
+
+      .close {
+        margin-left: -50px;
+       }
+     
+      
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .Chat {
+        width: 100%;
+        margin-left: 0px;
+      }
+
+      .Chat-container {
+        height: 60vh;
+      }
+
+      .close {
+        margin-left: -90px;
+       }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .Chat {
+        width: 100%;
+        margin-left: 0px;
+      }
+
+      .Chat-container {
+        height: 58vh;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .wrapper2 {
+        gap: 10px;
+      }
+
+      .name>span:nth-of-type(1) {
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .close {
+        margin-left: -90px;
+       }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .Chat {
+        grid-template-columns: auto;
+        width: 90%;
+        margin-left: 30px;
+      }
+
+
+    .conversation {
+        margin-left: 23px;
+      }
+      .close {
+        margin-left: 40px;
+       }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .Chat {
+        grid-template-columns: auto;
+        width: 320px;
+        margin-left: 10px;
+      }
+
+
+    
+
+      .close {
+        margin-left: -495px;
+       }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .Chat {
+        grid-template-columns: auto;
+        width: 320px;
+        margin-left: -10px;
+      }
+
+      .Chat-container {
+        width: 300px;
+      }
+    
+    .conversation {
+        margin-left: 23px;
+      }
+      .close {
+        margin-left: -100px;
+       }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .Chat {
+        grid-template-columns: auto;
+        width: 290px;
+        margin-left: -10px;
+      }
+
+      .Chat-container {
+        width: 300px;
+      }
+    
+    .conversation {
+        margin-left: 23px;
+      }
+      .close {
+        margin-left: -100px;
+       }
+}

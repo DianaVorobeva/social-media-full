@@ -1,0 +1,198 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .nav {
+        display: flex;
+    }
+
+
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+    .logoSearch {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search {
+        width: 95%;
+    }
+
+    .navIcon>svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .logoSearch {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .search {
+        width: 94%;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .adaptiveModeBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 80px;
+    }
+
+    .logoSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+
+    .search {
+
+        width: 100%;
+    }
+
+    .input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 360px;
+    }
+
+    .nav {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .autocomplete1 {
+    position: fixed;
+    margin-left: 110px;
+    top: 85px;
+    width: 300px;
+    }
+
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .adaptiveModeBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .logoSearch {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .search {
+
+        width: 100%;
+    }
+
+    .input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 460px;
+    }
+
+    .nav {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .autocomplete1 {
+        position: fixed;
+        margin-left: 110px;
+        top: 85px;
+        width: 300px;
+        }
+
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .adaptiveModeBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 70px;
+    }
+    
+    .logo {
+        font-size: 33px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .nav {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .autocomplete1 {
+        position: fixed;
+        margin-left: 110px;
+        top: 85px;
+        width: 300px;
+        }
+
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .adaptiveModeBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 70px;
+    }
+    
+    .logo {
+        font-size: 33px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .nav {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .autocomplete1 {
+        position: fixed;
+        margin-left: 110px;
+        top: 85px;
+        width: 300px;
+        }
+        
+}

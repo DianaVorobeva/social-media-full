@@ -1,0 +1,36 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .suggestionsCard {
+        display: none;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481) and (max-width : 595px) {
+
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321) and (max-width : 480px) {
+
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+
+}

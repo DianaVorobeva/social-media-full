@@ -1,0 +1,97 @@
+.logoSearch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.logo {
+    font-size: 40px;
+    margin: 0;
+    color: black;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    padding: 5px;
+    height: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 260px;
+}
+
+.inputDarkMode {
+    background-color: var(--buttonBg);
+    border: none;
+    outline: none;
+    width: 260px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+.searchIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+}
+
+.searchIcon:hover {
+    cursor: pointer;
+}
+
+.autocomplete1 {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 300px;
+    background-color: #e6dfdf;
+    border-radius: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    max-height: 350px;
+    height: auto;
+    overflow: auto;
+}
+
+.autocompleteItem1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.autocompleteItem1:hover {
+    background-color: var(--blue);
+    cursor: pointer;
+    transition: all cubic-bezier(1, 0, 0, 1) 0.3s;
+}
+
+.autocompleteItem1>span:nth-last-of-type(1) {
+    font-size: small;
+    color: rgb(103, 98, 98);
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+}
+
+.link>span:nth-of-type(2) {
+    color: silver;
+}
+
+.nav {
+    display: none;
+}

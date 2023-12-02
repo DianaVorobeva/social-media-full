@@ -1,0 +1,80 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .profileCard {
+       min-width: fit-content;
+    }
+
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .profileImg>img:nth-of-type(2) {
+        width: 140px;
+        height: 130px;
+    }
+
+
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    
+    .profileCard {
+        padding-bottom: 0px;
+    }
+    .profileImg>img:nth-of-type(2) {
+        width: 120px;
+        height: 110px;
+    }  
+    
+    .profileName>span:nth-of-type(1) {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .profileName>span:nth-of-type(2) {
+        font-size: 11px;
+    }
+
+    .follow>span:nth-of-type(1) {
+        font-weight: 600;
+    }
+
+    .follow>span:nth-of-type(2) {
+        font-size: 9px;
+     
+    }
+
+    .vl {
+        height: 50px;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .profileCard {
+        display: none;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .profileCard {
+        display: none;
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .profileCard {
+        display: none;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    
+    .profileCard {
+        display: none;
+    }
+}

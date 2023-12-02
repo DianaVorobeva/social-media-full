@@ -1,0 +1,108 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--location);
+}
+
+.leftAuth {
+    background-image: url(../../Assets/auth3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+.leftAuth>h1 {
+    position: absolute;
+    font-size: 65px;
+    top: 70px;
+    left: 157px;
+    color: var(--blue);
+    text-shadow: 3px 3px 3px var(--black);
+}
+
+.leftAuth>h3 {
+    position: absolute;
+    font-size: 20px;
+    left: 200px;
+    top: 200px;
+    font-weight: lighter;
+    width: 220px;
+    color: var(--black);
+}
+
+.authForm>div {
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--blue);
+    width: 450px;
+    height: 450px;
+}
+
+.infoInput {
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: var(--location);
+    padding: 15px;
+    flex: 1;
+}
+
+.infoForm>h3 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.infoForm>div {
+    display: flex;
+    gap: 25px;
+    height: 50px;
+    width: 75%;
+    
+}
+
+.loginBtn {
+    width: 100px;
+    height: 30px;
+    align-self: flex-end;
+    margin-right: 65px;
+    margin-top: -20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ba6d77;
+}
+
+.singUpBtn {
+    width: 100px;
+    height: 30px;
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-top: -20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ba6d77;
+}
+
+.singUpBtn:hover,.loginBtn:hover {
+    color: var(--black);
+    border: none;
+    background-color: #dab7bb;
+}
+

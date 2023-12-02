@@ -1,0 +1,68 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .profile {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+    }
+
+    .profileCenter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    
+     .navbar {
+         display: none;
+     }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .navbar {
+        display: none;
+    }
+
+
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .navbar {
+        display: none;
+    }
+    
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .navbar {
+        display: none;
+    }
+
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .navbar {
+        display: none;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .navbar {
+        display: none;
+    }
+}

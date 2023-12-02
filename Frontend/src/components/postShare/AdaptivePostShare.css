@@ -1,0 +1,264 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .option {
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .option>span {
+        display: none;
+    } 
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 290px;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .option>span {
+        display: none;
+    }  
+
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 180px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .option {
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .option>span {
+        display: none;
+    } 
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 30px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+    }
+
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+    }
+
+    .option {
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .option>span {
+        display: none;
+    } 
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 30px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+
+    .postShare {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: var(--cardColor);
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wrapper11 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+    }
+
+    
+    .imgProfile {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #E95793;
+    }
+
+    .option {
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+  
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 30px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+ 
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .postShare {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: var(--cardColor);
+        padding: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wrapper11 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .wrapper11>input {
+        background-color: var(--inputColor);
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 16px;
+        outline: none;
+        width: 200px;
+    }
+
+    .imgProfile {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #E95793;
+    }
+
+    .option {
+        padding: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+  
+
+    .psBtn {
+        padding: 0px;
+        padding-left: 8px;
+        padding-right: 8px;
+        height: 30px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+}

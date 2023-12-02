@@ -1,0 +1,61 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .navIcon {
+        margin-top: 23px;
+        margin-top: 23px;
+        margin-bottom: 0px;
+        margin-left: 35px;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .navIcon {
+        display: flex;
+        justify-content: center;
+        gap: 37px;
+        margin-top: 10px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        margin-left: 25px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .navIcon {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 10px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .navIcon {
+        display: none;
+        
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481) and (max-width : 595px) {
+    .navIcon {
+        display: none;
+        
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321) and (max-width : 480px) {
+
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+
+}

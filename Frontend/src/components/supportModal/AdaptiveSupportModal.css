@@ -1,0 +1,126 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .infoInput {
+        width: 250px;
+    }
+
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 57%;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .infoInput {
+        width: 180px;
+    }
+
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 67%;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 77%;
+        padding: 35px;
+        justify-content: center;
+    }
+
+    .box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .infoInput {
+        width: 250px;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 87%;
+        padding: 35px;
+        padding-top: 45px;
+        justify-content: center;
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 97%;
+        padding: 35px;
+        padding-top: 45px;
+        justify-content: center;
+    }
+
+    .box13 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .text {
+        font-size: 14px;
+     padding: 3px;
+    }
+
+    .desc2 {
+        margin-top: 30px;
+        text-align: center;
+        width: 250px;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .modal-content2 {
+        top: 49%;
+        left: 50%;
+        width: 97%;
+        padding: 35px;
+        padding-top: 45px;
+        justify-content: center;
+    }
+
+    .box13 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        }
+    
+        .text {
+            font-size: 14px;
+         padding: 3px;
+        }
+    
+        .desc2 {
+            margin-top: 30px;
+            text-align: center;
+            width: 250px;
+        }
+    
+
+    .col {
+        flex-direction: column;
+    }
+}

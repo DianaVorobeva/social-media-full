@@ -1,0 +1,77 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .home {
+        grid-template-columns: 400px auto;
+        gap: 13px;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .home {
+        grid-template-columns: 280px auto;
+        gap: 10px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .home {
+        grid-template-columns: 250px auto;
+        padding: 10px;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 10px;
+        margin-left: 14px;
+  
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 10px;
+        margin-left: 5px;
+  
+    }
+
+   
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 10px;
+        margin-left: 5px;
+  
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 10px;
+        margin-left: 5px;
+  
+    }
+}

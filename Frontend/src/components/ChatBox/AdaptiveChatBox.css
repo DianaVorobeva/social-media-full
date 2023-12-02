@@ -1,0 +1,82 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .ChatBox-container {
+        margin-top: 160px;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .ChatBox-container {
+        margin-top: 30px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .ChatBox-container {
+        margin-top: 20px;
+    }
+
+    .message {
+        width: 260px;
+      }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .ChatBox-container {
+        margin-top: 30px;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .message {
+        width: 220px;
+      }
+
+      .chat-sender {
+        gap: 5px;
+        padding: 3px;
+            }
+
+    .chat-sender>div {
+        height: 70%;
+        padding: 0px 3px 0px 3px;
+            }
+
+    .send-button {
+        font-size: 14px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .message {
+        width: 220px;
+      }
+
+      .chat-sender {
+        gap: 5px;
+        padding: 3px;
+            }
+
+    .chat-sender>div {
+        height: 70%;
+        padding: 0px 3px 0px 3px;
+            }
+
+    .send-button {
+        font-size: 14px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

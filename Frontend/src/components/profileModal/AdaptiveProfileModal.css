@@ -1,0 +1,101 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    .infoInput {
+        width: 250px;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+    .modal-content {
+        top: 49%;
+    }
+
+    .infoInput {
+        width: 250px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .modal-content {
+        top: 49%;
+    }
+
+    .infoInput {
+        width: 250px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .modal-content {
+        top: 49%;
+    }
+
+    .infoInput {
+        width: 230px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+   
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .modal-content {
+        top: 50%;
+        width: 65%;
+    }
+
+    .infoInput {
+        width: 200px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .modal-content {
+        top: 50%;
+        width: 90%;
+    }
+
+    .infoInput {
+        width: 200px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .modal-content {
+        top: 50%;
+        width: 90%;
+    }
+
+    .infoInput {
+        width: 200px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}

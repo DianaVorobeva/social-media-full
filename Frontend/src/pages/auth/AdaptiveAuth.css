@@ -1,0 +1,172 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    
+    .leftAuth>h1 {
+        font-size: 48px;
+        left: 128px;
+        top: 100px;
+    }
+    
+    .leftAuth>h3 {
+        font-size: 19px;
+        left: 140px;
+        top: 200px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .auth {
+        flex-direction: column;
+    }
+
+    .leftAuth {
+        height: 300px;
+    }
+
+    .leftAuth>h1 {
+        font-size: 60px;
+        left: 177px;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .auth {
+        flex-direction: column;
+    }
+
+    .leftAuth {
+        width: 450px;
+        height: 290px;
+    }
+
+    .leftAuth>h1 {
+        left: 167px;
+    }
+    
+    .leftAuth>h3 {
+        left: 204px;
+    }
+
+    .infoForm {
+        width: 450px;
+        height: 390px;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .auth {
+        flex-direction: column;
+    }
+
+    .leftAuth {
+        width: 450px;
+        height: 290px;
+    }
+
+    .leftAuth>h1 {
+        left: 187px;
+        font-size: 60px;
+    }
+
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .auth {
+        flex-direction: column;
+    }
+
+    .leftAuth {
+        width: 100%;
+        height: 250px;
+    }
+
+    .leftAuth>h1 {
+        left: 117px;
+        font-size: 47px;
+    }
+
+    .leftAuth>h3 {
+        left: 124px;
+        top: 170px;
+        font-size: 18px;
+    }
+
+    .infoForm {
+        width: 320px;
+        height: 580px;
+    }
+
+    .infoForm>div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }    
+
+    .infoForm>div>input {
+        width: 100%;
+    }
+
+    .loginBtn {
+        margin-top: 0px;
+    }
+    
+    .singUpBtn {
+        margin-top: 0px;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+   
+    .auth {
+        flex-direction: column;
+    }
+
+    .leftAuth {
+        width: 310px;
+        height: 250px;
+    }
+
+    .leftAuth>h1 {
+        left: 110px;
+        font-size: 47px;
+    }
+
+    .leftAuth>h3 {
+        left: 118px;
+        top: 170px;
+        font-size: 18px;
+    }
+
+    .infoForm {
+        width: 310px;
+        height: 580px;
+    }
+
+    .infoForm>div {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }    
+
+    .infoForm>div>input {
+        width: 100%;
+    }
+
+    .loginBtn {
+        margin-top: 0px;
+    }
+    
+    .singUpBtn {
+        margin-top: 0px;
+    }
+}

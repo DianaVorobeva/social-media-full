@@ -1,0 +1,126 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    
+    .nav1 {
+        display: none;
+    }
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .rightSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .navIcon {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        margin-top: 00px;
+    }
+
+   .hamburger {
+        display: block;
+     
+    }
+
+    .collapsed {
+        display: none;
+    } 
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+    .rightSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .navIcon {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        margin-top: 00px;
+    }
+
+   .hamburger {
+        display: block;
+     
+    }
+
+    .collapsed {
+        display: none;
+    } 
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .rightSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .navIcon {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        margin-top: 00px;
+    }
+
+   .hamburger {
+        display: block;
+     
+    }
+
+    .collapsed {
+        display: none;
+    } 
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+
+    .rightSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    
+    .navIcon {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
+        margin-top: 00px;
+    }
+
+   .hamburger {
+        display: block;
+     
+    }
+
+    .collapsed {
+        display: none;
+    } 
+}

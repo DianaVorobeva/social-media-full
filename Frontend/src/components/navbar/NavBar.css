@@ -1,0 +1,30 @@
+.navIcon {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 16px;
+}
+
+.navIcon>svg {
+    width: 30px;
+    height: 30px;
+}
+
+.navIcon>a>svg {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+.rightBtn {
+    height: 35px;
+    width: 70%;
+    align-self: center;
+    font-size: 16px;
+}
+
+.hamburger {
+  display: none;
+}

@@ -1,0 +1,75 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: #badfd7 ;
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #FFB677;
+  --location: #f8e4da;
+  --blueDark: #03bdca;
+  --blue: #60bfc1;
+  --pink: #ebcfd0;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.App-light {
+  width: 100vw;
+  height: max-content;
+  background-image: url(Assets/bg.jpg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-dark {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(Assets/darkAppBg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blue {
+  color: var(--blueDark);
+
+}
+
+
+
+.button {
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: var(--blueDark);
+  transition: all 100ms ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: var(--blueDark);
+  background: transparent;
+  border: 2px solid var(--blueDark);
+}
+
+.button:disabled {
+  background: silver;
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+

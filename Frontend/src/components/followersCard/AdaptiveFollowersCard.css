@@ -1,0 +1,99 @@
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+    
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+
+    .followersCard>h3 {
+        font-size: 18px;
+    }
+
+    .follower {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .followerImg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .follower>span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .followerBtn {
+        height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+    .followersCard>h3 {
+        align-self: center;
+        font-size: 16px;
+    }
+
+    .followerImg {
+        width: 55px;
+        height: 55px;
+    }
+
+    .follower {
+        gap: 10px;
+        width: 100%;
+        margin-left: -8px;
+    }
+
+    .wrapper>span:nth-of-type(1) {
+        font-size: 12px;
+        margin-left: 0px;
+    }
+
+    .followerBtn {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+    .rightSide {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 0px;
+    }
+
+    .followersCard {
+        display: none;
+    }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+
+    .followersCard {
+        display: none;
+    }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+    .followersCard {
+        display: none;
+    }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+    .followersCard {
+        display: none;
+    }
+}
