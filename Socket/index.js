@@ -1,6 +1,6 @@
 const io = require("socket.io")(8800, {
     cors: {
-      origin: "http://10.1.30.62:3000",
+      origin: "http://89.104.71.200",
       methods: ["GET", "POST", "DELETE"]
     },
     transports: ['websocket', 'polling', 'flashsocket']
