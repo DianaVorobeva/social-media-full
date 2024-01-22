@@ -1,3 +1,13 @@
+/*--- Desktop --- */
+@media screen and (max-width : 1700px) {
+  .Chat {
+    width: 100%;
+    margin-left: 0px;
+    grid-template-columns: 45% auto;
+  }
+
+}
+
 /*--- Tablet landscape --- */
 @media screen and (max-width : 1224px) {
     .Chat {

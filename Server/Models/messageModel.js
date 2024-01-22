@@ -13,6 +13,9 @@ const messageSchema = mongoose.Schema(
         },
         image: {
             type: String
+        }, 
+        unread: {
+            type: Boolean
         }
 },
     {timestamps: true}

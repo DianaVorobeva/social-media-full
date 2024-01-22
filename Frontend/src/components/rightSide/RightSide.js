@@ -10,7 +10,7 @@ const RightSide = () => {
     return (
     <div className="rightSide">
       <div className="nav1">
-        <NavBar/>
+        <NavBar location="homepage"/>
       </div>
       <SuggestionsCard/>
        

@@ -3,11 +3,13 @@ import { useDispatch } from "react-redux";
 import { getUser } from "../../API/UserRequest.js";
 import { AiOutlineClose } from 'react-icons/ai';
 import { deleteChat } from "../../API/ChatRequest.js";
+import { getAllNotifications } from "../../API/NotificationsRequest.js";
 
-const Conversation = ({ data, currentUser, clickedUserId, chatId, remove, setRemove, online }) => {
+const Conversation = ({ data, currentUser, clickedUserId, chatId, remove, setRemove, online, notifications, setNotifications }) => {
 
     const [userData, setUserData] = useState(null);
-    
+
+  
     const dispatch = useDispatch();
 
     useEffect(()=> {
@@ -51,11 +53,24 @@ const Conversation = ({ data, currentUser, clickedUserId, chatId, remove, setRem
       }
     }
 
+     // fetch notifications
+  useEffect(() => {
+    const fetchEvents = async () => {
+      try {
+        const { data } = await getAllNotifications();
+
+        setNotifications(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchEvents();
+  }, [clickedUserId]);
    
     return (
         <>
         
-           <div className="follower conversation" style={remove ? {display: "none"} : {display: "flex"} }>
+      <div className="follower conversation" style={remove ? {display: "none"} : {display: "flex"} }>
               <div className="box2">
           {online && 
           <div className="online-dot"></div>
@@ -74,6 +89,15 @@ const Conversation = ({ data, currentUser, clickedUserId, chatId, remove, setRem
            <div className="close" onClick={deleteThisChat}>
                 <AiOutlineClose/>
           </div>
+          
+       
+        { notifications.filter((notification)=>notification.senderId === userData?._id).length>=1 
+            ? <div className="notifications">
+                {notifications.filter((notification)=>notification.senderId === userData?._id).length}
+              </div>
+            : null
+        }
+          
           </div>
           
               </div>

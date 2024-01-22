@@ -52,7 +52,7 @@
 
 .autocomplete1 {
     position: absolute;
-    left: 0;
+    left: -37px;
     top: 50px;
     width: 300px;
     background-color: #e6dfdf;

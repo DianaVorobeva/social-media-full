@@ -18,22 +18,25 @@
 body {
   margin: 0px;
   padding: 0px;
+
 }
 
 
 .App-light {
   width: 100vw;
   height: max-content;
-  background-image: url(Assets/bg.jpg.png);
+  background-image: url(Assets/bg.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
 .App-dark {
   width: 100vw;
   height: 100vh;
-  background-image: url(Assets/darkAppBg.jpg);
+  background-image: url(Assets/darkAppBg.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -28,3 +28,63 @@
 .hamburger {
   display: none;
 }
+
+.notificationsNavHome {
+    background-color: #FFC5C5;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+    left: 178px;
+}
+
+.notificationsNav {
+    background-color: #FFC5C5;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+    left: 120px;
+}
+
+.blockNoti {
+    position: relative;
+top: 0px;
+left: 10px;
+}
+
+/* .notificationsNav:focus {
+    .boxNoti {
+
+flex-direction: column;
+align-items: center;
+position: absolute;
+/* right: 0;
+top: 75px;
+width: 320px;
+min-height: 100px;
+max-height: 500px;
+background-color: #fff;
+border-radius: 5px;
+margin: 0;
+padding: 0;
+z-index: 1000;
+overflow: auto; */
+
+
+
+

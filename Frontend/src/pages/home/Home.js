@@ -6,6 +6,7 @@ import PostSide from "../../components/postSide/PostSide";
 import RightSide from "../../components/rightSide/RightSide";
 
 const Home = ({switchTheme, theme}) => {
+    
     return (
     <div className="home">
         <div className="rightSide">
@@ -17,7 +18,7 @@ const Home = ({switchTheme, theme}) => {
         </div>
 
         <div className="leftSide">
-            <RightSide switchTheme = {switchTheme} theme = {theme}/>
+            <RightSide switchTheme = {switchTheme} theme = {theme}  location="homepage"/>
         </div>
     </div>
     )

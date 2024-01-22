@@ -18,9 +18,13 @@
 
 .follower {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px;
     align-items: center;
     width: 90%;
+}
+.wrapper {
+    min-width: 180px;
 }
 
 .follower>div {

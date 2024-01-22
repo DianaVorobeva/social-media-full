@@ -11,6 +11,7 @@ import ChatRoute from './Routes/ChatRoute.js';
 import MessageRoute from './Routes/MessageRoute.js';
 import SearchRoute from './Routes/SearchRoute.js';
 import SupportRoute from './Routes/SupportRoute.js';
+import NotificationsRoute from './Routes/NotificationsRoute.js';
 
 
 
@@ -44,3 +45,4 @@ app.use('/chat', ChatRoute);
 app.use('/message', MessageRoute);
 app.use('/search', SearchRoute);
 app.use('/support', SupportRoute);
+app.use('/notifications', NotificationsRoute);

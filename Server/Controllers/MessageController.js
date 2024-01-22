@@ -3,13 +3,14 @@ import MessageModel from "../Models/messageModel.js";
 // add a message
 
 export const addMessage = async (req, res) => {
-  const { chatId, senderId, text, image } = req.body;
+  const { chatId, senderId, text, image, unread } = req.body;
 
   const message = new MessageModel({
     chatId,
     senderId,
     text,
-    image
+    image,
+    unread
   });
   try {
     const result = await message.save();

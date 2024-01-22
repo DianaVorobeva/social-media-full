@@ -16,6 +16,7 @@ ___
 - Create, read, update and delete posts and comments
 - Like and unlike posts
 - Create, read, update and delete nested comments
+- Notifications about new messages
 - Private message users in real-time using socket.io with search (can add, delete a message)
 - View profiles of users 
 - Infinite scrolling
@@ -34,8 +35,12 @@ ___
     <p align="center">
  <img width="400px" src="../Frontend/src/Assets/screen3.png" alt="qr"/>
   </p>
-___
 
+#####Users info for App testing 
+Username: dianaKey@gmail.com
+Password: 123
+Username: MissMasha
+Password: 123
 #####What you need to run this code
 Node (18.14.2)
 NPM (9.5.0)

@@ -19,6 +19,7 @@ const Post= ({data}) => {
     const [liked, setLiked] = useState(data.likes.includes(user._id));
     const [likes, setLikes] = useState(data.likes.length);
     const postUserId = data.userId;
+   
     
     const handleLike = () => {
       likePost(data._id, user._id);
@@ -37,7 +38,7 @@ const Post= ({data}) => {
           console.log(error);
          }
       }
-      getUserData()
+      getUserData();
     };
       
     

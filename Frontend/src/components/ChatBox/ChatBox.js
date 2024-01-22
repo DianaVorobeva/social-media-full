@@ -8,12 +8,13 @@ import { AiOutlineClose } from 'react-icons/ai';
 import { addMessage, getMessages, deleteMessage } from "../../API/MessageRequest";
 import { getUser } from "../../API/UserRequest";
 import { uploadImage } from "../../actions/uploadAction";
+import { addEvent, getAllNotifications, deleteEvent } from '../../API/NotificationsRequest';
 import { useDispatch } from "react-redux";
 import { Link } from 'react-router-dom';
 
 
 
-const ChatBox = ({ chat, currentUser, remove, setSendMessage, receivedMessage }) => {
+const ChatBox = ({ chat, currentUser, remove, setSendMessage, receivedMessage, notifications, setNotifications }) => {
   const [userData, setUserData] = useState(null);
   const [messages, setMessages] = useState([]);
   const [messageId, setMessageId] = useState("");
@@ -24,7 +25,7 @@ const ChatBox = ({ chat, currentUser, remove, setSendMessage, receivedMessage })
   const dispatch = useDispatch();
 
   const handleChange = (newMessage)=> {
-    setNewMessage(newMessage)
+    setNewMessage(newMessage);
   };
 
   const userId = chat?.members?.find((id) => id !== currentUser);
@@ -88,6 +89,7 @@ const reset = () => {
       text: newMessage,
       image: image,
       chatId: chat._id,
+      unread: true
   }
 
     if(image) {
@@ -107,6 +109,14 @@ const reset = () => {
     
   const receiverId = chat.members.find((id)=>id!==currentUser);
 
+  const newNotification = {
+    chatId: chat._id,
+    senderId : currentUser,
+    receiverId: receiverId,
+    events: "new message",
+    unread: true
+}
+
 //   send message to socket server
 
   setSendMessage({...message, receiverId})
@@ -117,8 +127,15 @@ const reset = () => {
   try {
     const { data } = await addMessage(message);
     setMessages([...messages, data]);
-    console.log(message.image)
     setNewMessage("");
+  }
+  catch
+  {
+    console.log("error")
+  }
+
+  try {
+    const { data } = await addEvent(newNotification);
   }
   catch
   {
@@ -148,6 +165,23 @@ console.log(error);
 }
 }
 
+ // delete a notification
+ useEffect(() => {
+  const removeNotification = async() => {
+  const receiverId = chat.members.find((id)=>id!==currentUser);
+  try{ 
+       await deleteEvent(receiverId);
+       const { data} = await getAllNotifications();
+       setNotifications(data);
+    }
+    catch(error)
+    {
+    console.log(error);
+    }
+ };
+ if (chat !== null)removeNotification()
+ },[chat])
+ 
 
 
   return (
@@ -242,6 +276,7 @@ console.log(error);
               <InputEmoji
                 value={newMessage}
                 onChange={handleChange}
+                // onClick={removeNotification}
               />
               <div className="send-button button" onClick = {handleSend}>Send</div>
             </div>

@@ -32,8 +32,10 @@ const Chat = () => {
   const [isOpen, setIsOpen] = useState(true);
   const [listSearch, setListSearch] = useState([]);
   const [clickedUserId, setClickedUserId] = useState();
+  const [notifications, setNotifications] = useState([]);
 
-  // find user adn create a chat
+
+  // find user and create a chat
 
   const itemClicked = (e) => { 
     setText(e.target.textContent);
@@ -145,6 +147,9 @@ useEffect(() => {
     return online ? true : false;
   };
 
+
+ 
+
  
 
     return (
@@ -221,6 +226,8 @@ useEffect(() => {
                 remove={remove}
                 setRemove={setRemove}
                 online={checkOnlineStatus(chat)}
+                notifications= {notifications}
+                setNotifications={setNotifications}
                 />
               </div>
             ))}
@@ -240,6 +247,8 @@ useEffect(() => {
         remove={remove}
         setSendMessage={setSendMessage}
         receivedMessage={receivedMessage}
+        notifications= {notifications}
+        setNotifications={setNotifications}
         />
     
       </div>

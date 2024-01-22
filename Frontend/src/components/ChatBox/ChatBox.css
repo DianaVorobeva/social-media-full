@@ -3,8 +3,8 @@
     border-radius: 10px;
     height: 80vh;
     display: grid;
-    grid-template-rows: 10vh 62.2vh 10vh;
-    margin-top: -10px;
+    grid-template-rows: 10vh 60.2vh 2vh;
+    margin-top: -29px;
     padding-bottom: 0px;
 }
 
@@ -100,6 +100,9 @@
     padding: 10px;
 }
 
+.chatbox-empty-message {
+    text-align: center;
+  }
 
 .chat-sender {
     background: white;
@@ -110,7 +113,9 @@
     gap: 1rem;
     padding: 10px;
     border-radius: 10px;
-    align-self: end;
+    position: relative;
+    top: 30px;
+    /* align-self: end; */
 }
 
 .chat-sender>input{

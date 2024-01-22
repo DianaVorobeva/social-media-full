@@ -32,7 +32,7 @@ const SuggestionsCard = () => {
 
 
     return (
-    <div className="followersCard">
+    <div className="suggestionsCard">
         <h3>Suggestions for you</h3>
         {suggestionArray.map((person,id) => {
             if(person) {

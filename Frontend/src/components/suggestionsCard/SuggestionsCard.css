@@ -2,27 +2,32 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 15px;
     background-color: var(--cardColor);
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
-    margin-top: 20px;
+
 }
 
 .suggestionsCard>h3 {
     align-self: center;
+    margin-bottom: 20px;
 }
 
 .suggestion {
     display: flex;
-    flex-direction: column;
-    gap: 7px;
+    justify-content: flex-start;
+    gap: 9px;
+    width: 100%;
 }
 
 .suggestion>span:nth-of-type(1) {
     font-weight: bold;
+    margin-left: 15px;
 }
 
 .suggestion>span:nth-of-type(2) {
     font-size: smaller;
+    margin-left: 8px;
 }
